@@ -1,5 +1,5 @@
 import 'package:book_club/firebase_options.dart';
-import 'package:book_club/screens/login/login.dart';
+import 'package:book_club/screens/root/root.dart';
 import 'package:book_club/states/current_user.dart';
 import 'package:book_club/utils/our_theme.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: OurTheme().buildTheme(),
-        home: LoginScreen(),
+        home: MyRoot(),
       ),
     );
   }
