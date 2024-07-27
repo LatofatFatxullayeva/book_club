@@ -1,4 +1,5 @@
-import 'package:book_club/screens/home/home.dart';
+
+import 'package:book_club/screens/root/root.dart';
 import 'package:book_club/screens/signup/signup.dart';
 import 'package:book_club/states/current_user.dart';
 import 'package:book_club/widgets/our_container.dart';
@@ -60,7 +61,7 @@ class _LoginFormState extends State<LoginForm> {
       Navigator.pushAndRemoveUntil(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => HomeScreen(),
+                  builder: (context) => MyRoot(),
                 ),
                 (route) => false,
               );
